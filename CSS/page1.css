@@ -1,0 +1,105 @@
+ 
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+  background-color: rgba(220, 220, 220, 0.315);
+  display: flex;
+}
+.setting{ 
+  height: 100vh;
+  width: 15vw;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  display: flex; 
+  flex-direction: column;
+  gap: 10px;
+}
+.setting h1{
+  margin: 30px 0;
+}
+.setting button{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin:0 auto;
+}
+.register{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: auto;
+  width: 60vw;
+  height: 75vh;
+  box-shadow: -1px 2px 25px  rgba(0, 0, 0, 0.856);
+}
+.register .form_of_register{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.register .form_of_register h2{
+  font-size: 30px;
+  margin: 20px 0;
+}
+.register .form_of_register label{
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.register .form_of_register input{
+  height: 30px; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+.register .form_of_register p{
+  margin: 10px 10px 0 5px ;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.register .form_of_register a{
+  color: black;
+}
+.register .form_of_register button{
+  background-color: black;
+  color: white;
+  height:40px;
+  border-radius: 5px;
+  margin: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.register .logo{
+  width: 50%;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  background-color: black;
+  color: white;
+  text-align: center; 
+}
+.register .logo h1{ 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+#warnning_name,#warnning_email,#warnning_phone{
+  color: red;
+  display: none;
+}
+.changeStyle{
+  color: white;
+  background-color:black;
+}
+ 
+
+ 

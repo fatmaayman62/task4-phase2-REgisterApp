@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docket</title>
+  <link rel="stylesheet" href="CSS/page3.css">
+</head>
+
+<body>
+
+  <h5 class="toggle_message" id="toggle_message"><span>&#x2713;</span> Login Successfully</h5>
+
+  <div class="setting" id="setting">
+    
+    <h1>Rivo</h1>
+    <button>Home</button>
+    <button class="logOut" id="logOut">&#x25C0; Logout</button>
+  </div>
+  <div class="body_of_notes">
+    <input type="search" name="" placeholder="Search by title" id="search">
+    <h1>Notes</h1>
+    <div class="content">
+      <div  class="empty_body">
+        <h2>No Notes Found</h2>
+        <p>Create a new note to get started</p>
+      </div>
+      <div class="container_of_notes" id="container_of_notes">
+
+      </div>
+      <button id="btn_add_note" class="btn_add_note">+</button>
+    </div>
+  </div>
+
+
+  <div class="write_note" id="write_note">
+    <h2>Add New Note</h2>
+    <label for="Title">Title</label>
+    <input type="text" id="Title" placeholder="Enter your title">
+    <label for="note">Content</label>
+    <textarea name="" id="note" placeholder="Write somthing"></textarea>
+    <button id="add_note_btn">Add Note</button>
+
+  </div>
+
+  <script src="JS/page3.js"></script>
+</body>
+
+</html>
